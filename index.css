@@ -1,0 +1,233 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;500;600;700;800;900&display=swap');
+* {
+    box-sizing: border-box;
+    font-family: 'Montserrat', sans-serif;
+}
+.navbar ul li a{
+    font-weight: 500;
+    color: #000 !important;
+}
+.navbar.putih {
+    background-color: #fff !important;
+}
+.card-service .overlay {
+    position: absolute;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    top: 0;
+    background-color: rgba(0,0,0,0.35) !important;
+}
+
+.nav-tab-content .active {
+    background-color: #4E72C6 !important;
+    color: rgb(255, 255, 255) !important;
+    font-weight: 500;
+    font-size: 20px;
+}
+.nav-tab-content button {
+    color: #000 !important;
+    font-weight: 500;
+    font-size: 20px;
+    margin: 10px 25px;
+}
+.card-service {
+    margin: 20px 0;
+}
+.navbar ul{
+ padding: 15px 0;
+ transition: all.17s;
+}
+.card-feature:hover {
+    box-shadow: 10px 10px 50px #4E72c6 !important;
+    background-color: #4E72c6;
+    color: #fff;
+}
+.card-feature {
+    margin: 20px 0;
+}
+footer ul li {
+    list-style: none;
+    padding-bottom: 17px;
+    margin-left: -30px;
+}
+footer p{
+    color: #fff;
+    opacity: 0.8;
+}
+footer ul li a{
+    text-decoration: none;
+    color: #fff;
+    font-weight: 500;
+    opacity: 0.8;
+}
+footer h5 {
+    font-weight: 600;
+    padding-bottom: 17px;
+    color: #fff;
+}
+
+@media (min-width: 300px) {
+    .section-banner .text-content h1 {
+        font-size: 40px;
+    }
+    .section-about .text-content h2  {
+        font-size: 33px;
+        font-weight: 700;
+    }
+    .section-banner .text-content {
+        text-align: center;
+    }
+    .section-banner .text-content p{
+        font-size: 12px;
+    }
+    .section-about .text-content p {
+        padding: 20px 0;
+        opacity: 0.8;
+    }
+    .section-about .text-content {
+        margin-top: 80px;
+        text-align: center;
+    }
+    .navbar ul li {
+        padding: 0px;
+    }
+}
+
+@media (min-width: 400px) {
+    .section-banner .text-content h1 {
+        font-size: 50px;
+    }
+    .section-about .text-content h2  {
+        font-size: 37px;
+        font-weight: 700;
+    }
+    .section-about .text-content p {
+        padding: 20px 0;
+        opacity: 0.8;
+    }
+    .section-about .text-content {
+        margin-top: 80px;
+        text-align: center;
+    }
+    .navbar ul li {
+        padding: 0px;
+    }
+    .section-banner .text-content {
+        text-align: left;
+    }
+    .section-banner .text-content p{
+        font-size: 16px;
+    }
+}
+
+@media (min-width: 777px) {
+    .section-banner .text-content h1 {
+        font-size: 50px;
+    }
+    .section-about .text-content h2  {
+        font-size: 37px;
+        font-weight: 700;
+    }
+    .section-about .text-content p {
+        padding: 20px 0;
+        opacity: 0.8;
+    }
+    .section-about .text-content {
+        margin-top: 80px;
+        text-align: center;
+    }
+    .navbar ul li {
+        padding: 0px;
+    }
+    .section-banner .text-content {
+        text-align: left;
+    }
+    .section-banner .text-content p{
+        font-size: 16px;
+    }
+}
+@media (min-width: 999px) {
+    .section-banner .text-content h1 {
+        font-size: 50px;
+    }
+    .section-about .text-content h2  {
+        font-size: 45px;
+        font-weight: 700;
+    }
+    .section-banner .text-content {
+        text-align: center;
+    }
+    .section-banner .text-content p{
+        font-size: 15px;
+    }
+    .section-about .text-content p {
+        padding: 20px 0;
+        opacity: 0.8;
+    }
+    .section-about .text-content {
+        margin-top: 10px;
+        text-align: left;
+    }
+    .navbar ul li {
+        padding: 0 15px;
+    }
+    .section-banner .text-content {
+        text-align: left;
+    }
+    .section-banner .text-content p{
+        font-size: 16px;
+    }
+}
+@media (min-width: 999px) {
+    .section-banner .text-content h1 {
+        font-size: 50px;
+    }
+    .section-about .text-content h2  {
+        font-size: 37px;
+        font-weight: 700;
+    }
+    .section-about .text-content p {
+        padding: 20px 0;
+        opacity: 0.8;
+    }
+    .section-about .text-content {
+        margin-top: 10px;
+        text-align: left;
+    }
+    .navbar ul li {
+        padding: 0 15px;
+    }
+    .section-banner .text-content {
+        text-align: left;
+    }
+    .section-banner .text-content p{
+        font-size: 16px;
+    }
+}
+@media (min-width: 1200px) {
+    .section-banner .text-content h1 {
+        font-size: 50px;
+    }
+    .section-about .text-content h2  {
+        font-size: 37px;
+        font-weight: 700;
+    }
+    .section-about .text-content p {
+        padding: 20px 0;
+        opacity: 0.8;
+    }
+    .section-about .text-content {
+        margin-top: 80px;
+        text-align: left;
+    }
+    .navbar ul li {
+        padding: 0 15px;
+    }
+    .section-banner .text-content {
+        text-align: left;
+    }
+    .section-banner .text-content p{
+        font-size: 16px;
+    }
+}
